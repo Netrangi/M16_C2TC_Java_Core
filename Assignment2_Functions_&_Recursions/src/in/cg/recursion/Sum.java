@@ -4,29 +4,24 @@ import java.util.Scanner;
 
 public class Sum 
 {
-    int sum = 0;
-   
-    public static void main(String[] args) 
-    {
-    	int n;
-    	Scanner s=new Scanner(System.in);
-        System.out.print("Enter the number:");
-        n = s.nextInt();
-        Sum obj = new Sum();
-        int a = obj.add(n);
-        System.out.println("Sum:"+a);
-    }
+	static int sod(int num)
+	{
+		if (num==0)
+		{
+			return 0;
+		}
+		else
+			return num%10+sod(num/10);
+	}
 
-    int add(int n)
-    {
-        sum = n % 10;
-        if(n == 0)
-        {
-            return 0;
-        }
-        else
-        {
-             return sum + add(n / 10);
-        }
-    }
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+		System.out.println(sod(n)); //fun call
+		s.close();
+
+
+	}
+
 }
