@@ -14,12 +14,12 @@ public class Fibonacci {
 	}
 
 	public static void main(String[] args) {
-		Scanner cs=new Scanner(System.in);
+		Scanner s=new Scanner(System.in);
         int n;
 	    System.out.print("Enter the N value:");
-	    n=cs.nextInt();
+	    n=s.nextInt();
 	    System.out.print("Nth Fibonacci Number is: "+ Fibonacci(n));
-        cs.close();
+        s.close();
 
 	}
 
