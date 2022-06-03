@@ -1,6 +1,6 @@
-package in.cg.application;
+package com.tns.application;
 
-import in.cg.framework.NormalAcc;
+import com.tns.framework.NormalAcc;
 
 public class GSNormalAcc extends NormalAcc 
 {
@@ -15,4 +15,6 @@ public class GSNormalAcc extends NormalAcc
 	public String toString() {
 		return String.format("GSNormalAcc [toString()=%s]", super.toString());
 	}
+	
+
 }

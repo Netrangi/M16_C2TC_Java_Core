@@ -1,4 +1,5 @@
-package in.cg.framework;
+package com.tns.framework;
+
 
 public abstract class ShopAcc 
 {
@@ -48,4 +49,4 @@ public abstract class ShopAcc
 	}
 	
 
-} 
+}

@@ -1,6 +1,6 @@
-package in.cg.application;
+package com.tns.application;
 
-import in.cg.framework.PrimeAcc;
+import com.tns.framework.PrimeAcc;
 
 public class GSPrimeAcc extends PrimeAcc
 {
@@ -15,4 +15,7 @@ public class GSPrimeAcc extends PrimeAcc
 	public String toString() {
 		return String.format("GSPrimeAcc [toString()=%s]", super.toString());
 	}
+	
+	
+
 }

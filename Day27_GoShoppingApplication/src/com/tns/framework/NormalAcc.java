@@ -1,4 +1,4 @@
-package in.cg.framework;
+package com.tns.framework;
 
 public abstract class NormalAcc extends ShopAcc {
 	private final float deliveryCharges;

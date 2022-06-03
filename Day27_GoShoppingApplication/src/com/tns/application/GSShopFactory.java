@@ -1,6 +1,6 @@
-package in.cg.application;
+package com.tns.application;
 
-import in.cg.framework.ShopFactory;
+import com.tns.framework.ShopFactory;
 
 public class GSShopFactory extends ShopFactory
 {
@@ -17,4 +17,5 @@ public class GSShopFactory extends ShopFactory
 		return n;
 		
 	}
+
 }
