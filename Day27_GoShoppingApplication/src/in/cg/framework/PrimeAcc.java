@@ -23,4 +23,10 @@ public abstract class PrimeAcc extends ShopAcc
 	public String toString() {
 		return String.format("PrimeAcc [isPrime=%s,toString()=%s]", isPrime,super.toString());
 	}
+
+	
+	
+	
+	
+
 }

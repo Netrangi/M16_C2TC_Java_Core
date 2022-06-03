@@ -18,4 +18,9 @@ public abstract class NormalAcc extends ShopAcc {
 	public String toString() {
 		return String.format("NormalAcc [deliveryCharges=%s,toString()=%s]", deliveryCharges,super.toString());
 	}
+
+	
+	
+	
+
 }
